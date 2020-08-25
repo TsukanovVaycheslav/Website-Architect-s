@@ -1,0 +1,1004 @@
+*body {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none !important;
+  position: relative;
+  color: #fff;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+/* Анимация картинки */
+.img_opac {
+  opacity:3;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.img_opac:hover {
+  opacity:.5;
+}
+
+/* Шапка */
+header {
+  padding: 20px;
+  font-size: 20px;
+  background: #808080;
+}
+
+.BTN_head {
+  margin: 20px;
+  color: #fff;
+}
+.BTN_head:hover {
+  color: #D3D3D3;
+}
+
+.logoIMG {
+  width: 100%;
+}
+
+.registration {
+  margin-right: 20px;
+  float: right;
+}
+
+.BTN_reg {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  color: #fff;
+  background: green;
+  cursor: pointer;
+}
+/*
+.inHouse_lg {
+  font-size: 35px;
+}
+*/
+.nav_display {
+  display: flex;
+}
+
+/*
+  Modal
+*/
+
+.btn {
+    padding: 10px 20px;
+    background-color: green;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+}
+.btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+
+}
+.modal-header, h4, .close {
+    background-color: #333;
+    color: #fff !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-header, .modal-body {
+    padding: 40px 50px;
+}
+.btn_help  {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+.btn_help:hover {
+  color: #F0FFF0;
+}
+
+.Form_and_Pass {
+  display: flex;
+}
+.Repeat_Where {
+  display: flex;
+}
+
+.Validate_btn {
+  background: #fff;
+}
+.Validate_btn:hover {
+  background: #FFF5EE;
+}
+.e {
+  padding-left: 20px;
+}
+
+/*
+  /Modal
+*/
+
+/* Лого 1*/
+.logo_txt11 {
+  width: 460px;
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  text-align: right;
+  font-size: 50px;
+  color: #F5F5DC;
+}
+
+.logo_txt12 {
+  width: 460px;
+  position: absolute;
+  top: 320px;
+  left: 100px;
+  font-size: 35px;
+  color: #F5F5DC;
+}
+.btn_then_1 {
+  padding: 20px;
+  width: 150px;
+  position: absolute;
+  top: 430px;
+  left: 100px;
+  font-size: 15px;
+  color: #fff !important;
+  border-radius: 30px;
+  background: blue !important;
+}
+.btn_then_1:hover {
+  background: red !important;
+}
+.btn__then_50 {
+  color: #fff !important;
+}
+/* Архитектор */
+
+.architect_img {
+  display: flex;
+}
+
+.block_1_img {
+  margin: auto;
+}
+.img2000 {
+  width: 550px;
+}
+.p_img {
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Кнопка подробнее */
+.else_more {
+  padding: 20px;
+  color: #fff;
+  margin: auto;
+  border-radius: 20px;
+  background: blue;
+  margin-left: 530px;
+  font-size: 20px;
+}
+.else_more:hover {
+  background: red;
+}
+
+/* КАТЕГОРИИ ЖИЛОЙ НЕДВИЖИМОСТИ */
+.block_3 {
+  font-size: 20px;
+  margin: 0px 250px 0px 250px;
+  text-align: center;
+}
+
+/* Grid */
+.grid_container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 35px;
+  padding: 20px;
+  background: #DCDCDC;
+}
+
+.grid_container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 35px;
+  padding: 20px;
+}
+
+.grid_container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 35px;
+  padding: 20px;
+  background: #DCDCDC;
+}
+.s {
+  display: flex;
+
+}
+.grid_container3_name_tell {
+  margin-left: 10px;
+}
+
+/* Лого 2*/
+.logo_txt21 {
+  width: 600px;
+  position: absolute;
+  top: 3300px;
+  left: 330px;
+  font-size: 20px !important;
+  text-align: center;
+  font-size: 50px;
+  color: #000;
+  background: #fff;
+  opacity: 0.8;
+}
+
+.logo_txt22 {
+    width: 1000px;
+    left: 150px;
+    position: absolute;
+    top: 3380px;
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    opacity: 0.8;
+}
+
+.btn_then_2 {
+  padding: 20px;
+  width: 150px;
+  position: absolute;
+  top: 3490px;
+  left: 560px;
+  font-size: 15px;
+  color: #fff !important;
+  border-radius: 30px;
+  background: blue !important;
+}
+.btn_then_2:hover {
+  background: red !important;
+  color: #fff !important;
+}
+
+.grid_container4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 35px;
+  padding: 20px;
+}
+.img_rad {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.btn__then_5 { /* Маленькие кнопки далее */
+  width: 130px;
+  height: 45px;
+  font-size: 15px;
+  color: #fff;
+  background: green;
+  cursor: pointer;
+}
+.btn__then_5:hover {
+  background: #32CD32;
+}
+
+/* &&&&&&&&&&&&& */
+/* Grid
+.grid_container_footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 35px;
+  padding: 20px;
+  font-size: 20px;
+  background: #000;
+  color: #FFF;
+}
+*/
+  /* &&&&&&&&&&&&& */
+
+  .container_foot{
+    font-size: 18px;
+    height: 400px;
+    display: flex;
+    flex-direction: row; /*направление: по горизонтали - row, по вертикали - column*/
+    align-items: flex-start; /*выравнивание по вертикали*/
+    justify-content: space-around; /*выравнивание по горизонтали*/
+    flex-wrap:nowrap; /*перенос блоков*/
+    color: #FFF;
+  }
+
+  .block {
+    width: 400px;
+    margin: 5px;
+    padding: 20px;
+  }
+
+  .header_footer {
+    display: flex;
+    font-size: 20px;
+  }
+
+._hr {
+  background: #000;
+  font-size: 20px;
+  text-align: right;
+  margin: 20px;
+  color: #fff;
+}
+.galleryIMG {
+  width: 200px;
+}
+
+footer {
+   background: #000;
+}
+
+/* ---------------- */
+
+
+/* ---------------- */
+
+
+/* Адаптация под мобильные устройства */
+/* 1200 - большие мониторы, 768 - маленькие мониторы, 480 - планшет, 320 / 98 - телефон
+/*
+  320 px — Мобильные устройства (портретная ориентация);
+  480 px — Мобильные устройства (альбомная ориентация);
+  600 px — Небольшие планшеты;
+  768 px — Планшеты (портретная ориентация);
+  1024 px — Планшеты (альбомная ориентация)/Нетбуки;
+  1280 px и более — PC.
+
+  240×320
+  320×240
+  320×480
+  480×360
+  360×640
+  480×800
+  768×1024
+  640×960
+  1280×800
+  2048×1536
+
+*/
+
+/* Маленькие мобильные устройства */
+@media screen and (min-width: 480px) and (max-width: 600px) {
+
+  .H1_block {
+    font-size: 20px;
+  }
+  /* Шапку вырезал / Вставить бургер меню */
+
+  /* Лого 1*/
+  .logo_txt11 {
+    width: 460px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    text-align: right;
+    font-size: 50px;
+    color: #F5F5DC;
+  }
+
+  /* Архитектор */
+
+  .block_1_img {
+    margin: auto;
+  }
+  .img2000 {
+    width: 240px;
+  }
+
+
+  /* Кнопка подробнее */
+  .else_more {
+    padding: 15px;
+    color: #fff;
+    margin: auto;
+    border-radius: 20px;
+    background: blue;
+    margin-left: 180px;
+    font-size: 10px;
+  }
+  .else_more:hover {
+    background: red;
+  }
+
+  /* КАТЕГОРИИ ЖИЛОЙ НЕДВИЖИМОСТИ */
+  .block_3 {
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+  }
+  .p_block_3 {
+    font-size: 18px;
+  }
+
+  /* Grid */
+  .grid_container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 35px;
+    padding: 10px;
+    background: #DCDCDC;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .grid_container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 35px;
+    padding: 20px;
+  }
+  .imgBig {
+    width: 100%;
+  }
+  .p_img {
+    font-size: 20px;
+  }
+  .img2000 {
+    width: 230px;
+  }
+
+  .grid_container3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 35px;
+    padding: 20px;
+    background: #DCDCDC;
+  }
+  .s {
+    display: flex;
+
+  }
+  .grid_container3_name_tell {
+    margin-left: 10px;
+  }
+
+  /* Лого 2*/
+  .logo_txt21 {
+    width: 350px;
+    position: absolute;
+    top: 4550px;
+    left: 70px;
+    font-size: 15px !important;
+    text-align: center;
+    color: #000;
+    background: #fff;
+    opacity: 0.8;
+  }
+
+  .logo_txt22 {
+      width: 430px;
+      left: 30px;
+      position: absolute;
+      top: 4600px;
+      font-size: 14px !important;
+      text-align: center;
+      color: #000;
+      background: #fff;
+      opacity: 0.8;
+  }
+
+  .btn_then_2 {
+    padding: 7px;
+    width: 100px;
+    position: absolute;
+    top: 4665px;
+    left: 200px;
+    font-size: 10px;
+    color: #fff !important;
+    border-radius: 30px;
+    background: blue !important;
+  }
+  .btn_then_2:hover {
+    background: red !important;
+    color: #fff !important;
+  }
+
+  .grid_container4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 35px;
+    padding: 20px;
+  }
+  .img_rad {
+    border-radius: 50%;
+    width: 100px;
+  }
+
+  .btn__then_5 {
+    width: 99%;
+    height: 45px;
+    font-size: 15px;
+    color: #fff;
+    background: green;
+    cursor: pointer;
+  }
+  .btn__then_5:hover {
+    background: #32CD32;
+  }
+
+    .container_foot{
+      font-size: 10px;
+      height: 500px;
+      display: flex;
+      flex-direction: row; /*направление: по горизонтали - row, по вертикали - column*/
+      align-items: flex-start; /*выравнивание по вертикали*/
+      justify-content: space-around; /*выравнивание по горизонтали*/
+      flex-wrap:nowrap; /*перенос блоков*/
+      color: #FFF;
+    }
+
+    .block {
+      width: 200px;
+    }
+
+    .header_footer {
+      display: flex;
+      font-size: 10px;
+    }
+
+  ._hr {
+    background: #000;
+    font-size: 20px;
+    text-align: right;
+    margin: 20px;
+    color: #fff;
+  }
+  .galleryIMG {
+    width: 200px;
+  }
+
+  .p_foot {
+    font-size: 12px;
+  }
+}
+
+/* 768 - маленькие мониторы */
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+
+  /* Шапка */
+  header {
+    padding: 20px;
+    font-size: 20px;
+    background: #808080;
+  }
+
+  .BTN_head {
+    margin: 20px;
+    color: #fff;
+  }
+  .BTN_head:hover {
+    color: #D3D3D3;
+  }
+
+  .logoIMG {
+    width: 100%;
+  }
+
+  .BTN_reg {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color: #fff;
+    background: green;
+    cursor: pointer;
+  }
+
+  .nav_display {
+    display: flex;
+  }
+
+  /* Архитектор */
+
+  .architect_img {
+    display: flex;
+  }
+
+  .block_1_img {
+    margin: auto;
+  }
+  .img2000 {
+    width: 450px;
+  }
+  .p_img {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  /* Кнопка подробнее */
+  .else_more {
+    padding: 15px;
+    color: #fff;
+    margin: auto;
+    border-radius: 20px;
+    background: blue;
+    margin-left: 380px;
+    font-size: 20px;
+  }
+  .else_more:hover {
+    background: red;
+  }
+
+  /* КАТЕГОРИИ ЖИЛОЙ НЕДВИЖИМОСТИ */
+  .block_3 {
+    font-size: 20px;
+    margin: 20px 50px 20px 50px;
+    text-align: center;
+  }
+
+  /* Grid */
+  .grid_container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 35px;
+    padding: 20px;
+    background: #DCDCDC;
+  }
+
+  .grid_container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 35px;
+    padding: 20px;
+  }
+.imgBig{
+  width: 200px;
+  font-size: 15px;
+}
+  .grid_container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 35px;
+    padding: 20px;
+    background: #DCDCDC;
+  }
+  .s {
+    display: flex;
+
+  }
+  .grid_container3_name_tell {
+    margin-left: 10px;
+  }
+
+  /* Лого 2*/
+  .logo_txt21 {
+    width: 600px;
+    position: absolute;
+    top: 3100px;
+    left: 200px;
+    font-size: 20px !important;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+    background: #fff;
+    opacity: 0.8;
+  }
+
+  .logo_txt22 {
+      width: 900px;
+      left: 50px;
+      position: absolute;
+      top: 3180px;
+      font-size: 25px;
+      text-align: center;
+      color: #000;
+      background: #fff;
+      opacity: 0.8;
+  }
+
+  .btn_then_2 {
+    padding: 20px;
+    width: 100px;
+    position: absolute;
+    top: 3290px;
+    left: 430px;
+    font-size: 10px;
+    color: #fff !important;
+    border-radius: 30px;
+    background: blue !important;
+  }
+  .btn_then_2:hover {
+    background: red !important;
+    color: #fff !important;
+  }
+
+  .grid_container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 35px;
+    padding: 20px;
+  }
+  .img_rad {
+    border-radius: 50%;
+    width: 100px;
+  }
+
+    .container_foot{
+      font-size: 15px;
+      height: 400px;
+      display: flex;
+      flex-direction: row; /*направление: по горизонтали - row, по вертикали - column*/
+      align-items: flex-start; /*выравнивание по вертикали*/
+      justify-content: space-around; /*выравнивание по горизонтали*/
+      flex-wrap:nowrap; /*перенос блоков*/
+      color: #FFF;
+    }
+  }
+
+    /* Большие маниторы */
+    @media screen and (min-width: 1500px) and (max-width: 1950px) {
+
+      /* Шапка */
+      header {
+        display: flex;
+        font-size: 35px;
+        background: #808080;
+      }
+      p {
+        font-size: 25px;
+      }
+
+      .BTN_head {
+        margin-left: 60px;
+        color: #fff;
+      }
+      .BTN_head:hover {
+        color: #D3D3D3;
+      }
+      .inHouse_lg {
+        font-size: 40px;
+      }
+
+      /* Лого 1*/
+      .logo_txt11 {
+        width: 700px;
+        position: absolute;
+        top: 300px;
+        left: 50px;
+        text-align: right;
+        font-size: 65px;
+        color: #F5F5DC;
+      }
+
+      .logo_txt12 {
+        width: 560px;
+        position: absolute;
+        top: 480px;
+        left: 250px;
+        font-size: 45px;
+        color: #F5F5DC;
+      }
+      .btn_then_1 {
+        padding: 20px;
+        width: 200px;
+        position: absolute;
+        top: 630px;
+        left: 240px;
+        font-size: 25px;
+        color: #fff;
+        border-radius: 30px;
+        background: blue;
+      }
+      .btn_then_1:hover {
+        background: #000;
+      }
+      /* Архитектор */
+      .architect_img {
+        display: flex;
+      }
+
+      .block_1_img {
+        margin: auto;
+      }
+      .img2000 {
+        width: 900px;
+      }
+      .p_img {
+        text-align: center;
+        font-size: 40px;
+      }
+
+      .imgBig {
+        width: 400px;
+      }
+
+      .s {
+        display: flex;
+        margin: 30px; /* ? */
+      }
+
+      /* Кнопка подробнее */
+      .else_more {
+        padding: 25px;
+        color: #fff;
+        margin: auto;
+        border-radius: 20px;
+        background: blue;
+        margin-left: 830px;
+        font-size: 25px;
+      }
+      .else_more:hover {
+        background: #000;
+      }
+
+      /* КАТЕГОРИИ ЖИЛОЙ НЕДВИЖИМОСТИ */
+      .block_3 {
+        font-size: 35px;
+        margin: 0px 250px 0px 250px;
+        text-align: center;
+      }
+
+      /* Grid */
+      .grid_container1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 35px;
+        padding: 20px;
+        background: #DCDCDC;
+        font-size: 33px;
+      }
+
+      .grid_container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 35px;
+        padding: 20px;
+      }
+
+      .grid_container3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 35px;
+        padding: 20px;
+        background: #DCDCDC;
+      }
+
+      .grid_container3_name_tell {
+        margin-left: 20px;
+        font-size: 20px;
+      }
+
+      /* Лого 2*/
+      .logo_txt21 {
+        width: 600px;
+        position: absolute;
+        top: 4880px;
+        left: 730px;
+        font-size: 45px;
+        text-align: center;
+        font-size: 50px;
+        color: #000;
+        background: #fff;
+        opacity: 0.8;
+      }
+
+      .logo_txt22 {
+          width: 1300px;
+          left: 450px;
+          position: absolute;
+          top: 4980px;
+          font-size: 35px;
+          text-align: center;
+          color: #000;
+          background: #fff;
+          opacity: 0.8;
+      }
+
+      .btn_then_2 {
+        padding: 20px;
+        width: 150px;
+        position: absolute;
+        top: 5150px;
+        left: 940px;
+        font-size: 15px;
+        color: #fff;
+        border-radius: 30px;
+        background: #B0C4DE;
+      }
+      .btn_then_2:hover {
+        background: blue;
+      }
+
+      .grid_container4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 35px;
+        padding: 20px;
+      }
+      .img_rad {
+        border-radius: 40%;
+        width: 100px;
+      }
+
+    /* ------------ */
+    /*
+      .grid_container_footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 35px;
+        padding: 20px;
+        font-size: 30px;
+        background: #000;
+        color: #FFF;
+      }
+      */
+    /* ------------ */
+
+        .container_foot{
+          font-size: 25px;
+          height: 500px;
+          display: flex;
+          flex-direction: row; /*направление: по горизонтали - row, по вертикали - column*/
+          align-items: flex-start; /*выравнивание по вертикали*/
+          justify-content: space-around; /*выравнивание по горизонтали*/
+          flex-wrap:nowrap; /*перенос блоков*/
+          color: #FFF;
+
+        }
+
+        .block {
+          width: 700px;
+          margin-left: 100px;
+        }
+
+      .galleryIMG {
+        width: 200px;
+      }
+
+    /* Закоментированные
+      .galleryIMG {
+        width: 130px;
+      }
+    */
+      .btn__then_5 {
+        width: 170px;
+        height: 70px;
+        font-size: 20px;
+        color: #fff;
+        background: green;
+        cursor: pointer
+      }
+
+      .header_footer {
+        display: flex;
+        font-size: 30px;
+      }
+
+
+    }
+
+/*
+
+border: solid 2px red;
+
+*/

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Сайт - Архитектора v 4.0.01</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="css/microGallery.css" type="text/css" media="screen"/>
+
+    <!-- /* Cлайдер */ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.css" type="text/css">
+
+    <!-- Modal -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Modal -->
+
+  </head>
+  <body>
+
+    <header>
+
+      <nav class="nav_display">
+        <ul class="topmenu">
+          <li><a class="topmenu_color" href="#">Главная</a></li>
+          <li><a class="topmenu_color" href="#" class="submenu-link" class="inHouse_lg">inHouse</a>
+            <ul class="submenu">
+              <li><a href="#">Производство</a></li>
+              <li><a href="#">Магазин</a></li>
+              <li><a href="#">Сервис</a></li>
+            </ul>
+          </li>
+          <li><a class="topmenu_color" href="#">Проекты</a></li>
+          <li><a class="topmenu_color" href="#">Контакты</a></li>
+        </ul>
+
+  <!--
+        <div class="BTN_head inHouse_lg" href="#">
+          <nav class="nav">
+            <ul class="topmenu">
+
+              <li><a href="" class="submenu-link">inHouse</a>
+                <ul class="submenu">
+
+                  <li><a href="">Производство</a></li>
+                  <li><a href="">Магазин</a></li>
+                  <li><a href="">Сервис</a></li>
+
+                </ul>
+              </li>
+
+            </ul>
+          </nav>
+
+        <a class="BTN_hea" href="#">ГЛАВНАЯ</a>
+        <a class="BTN_hea" href="#">О НАС</a>
+        <a class="BTN_hea" href="#">ТИПОГРАФИКА</a>
+        <a class="BTN_hea" href="#">КОНТАКТЫ</a>
+        </div>
+-->
+
+      <div class="registration">
+
+        <button class="BTN_reg btn" data-toggle="modal" data-target="#myModal">РЕГИСТРАЦИЯ</button>
+      </div>
+</nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Войти</h4>
+        </div>
+        <div class="modal-body">
+          <form class='formWithValidation'>
+
+            <div class="Form_and_Pass">
+              <div>
+                <div class="e">
+                  <label>От кого:</label>
+                </div>
+                <div class="e">
+                  <input type='text' class='from field'/>
+                </div>
+              </div>
+              <div>
+                <div class="e">
+                  <label>Кому:</label>
+                </div>
+                <div class="e">
+                  <select class='where field'>
+                    <option value='developers'>Разработчики</option>
+                    <option value='managers'>Менеджер</option>
+                    <option value='devops'>DevOps - инженер</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="Repeat_Where">
+              <div>
+                <div class="e">
+                  <label>Пароль:</label>
+                </div>
+                <div class="e">
+                  <input type='password' class='password field'/>
+                </div>
+              </div>
+              <div>
+                <div class="e">
+                  <label>Повторить пароль:</label>
+                </div>
+                <div class="e">
+                  <input type='password' class='passwordConfirmation field'/>
+                </div>
+              </div>
+            </div>
+
+<br>
+            <div>
+              <div>
+                <label>Сообщение:</label>
+              </div>
+              <div>
+                <textarea class='message field'></textarea>
+              </div>
+            </div><br>
+            <input class="Validate_btn" type='submit' class='validateBtn' value='Подтвердить' /><br>
+          </form>
+        </div>
+        <div class="modal-footer">
+
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Отменить
+          </button>
+
+          <p>Нужна  <a class="btn_help" href="#">Помощь?</a></p>
+        </div>
+      </div>
+
+    </div>
+      </div>
+    </header>
+
+    <section>
+      <section> <!-- Слайдер -->
+        <wrapper>
+        	<div id="dws-slider" class="carousel slide" data-ride="carousel">
+        		<!--Показатели-->
+        		<ol class="carousel-indicators">
+        			<li data-target="#dws-slider" data-slide-to="0" class="active"></li>
+        			<li data-target="#dws-slider" data-slide-to="1"></li>
+        			<li data-target="#dws-slider" data-slide-to="2"></li>
+        		</ol>
+
+        		<!--Обертка для слайдов-->
+        		<div class="carousel-inner" role="listbox">
+        			<div class="item active">
+                <img class="logoIMG" src="img/logo1.jpg" alt="Logo1">
+        				<div class="carousel-caption">
+        					<h3 class="text-uppercase">Адаптивный слайдер</h3>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        				</div>
+        			</div>
+        			<div class="item">
+                <img class="logoIMG" src="img/logo2.jpg" alt="Logo1">
+        				<div class="carousel-caption">
+        					<h3 class="text-uppercase">Анимированная прокрутка</h3>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        				</div>
+        			</div>
+        			<div class="item">
+                <img class="logoIMG" src="img/logo1.jpg" alt="Logo1">
+        				<div class="carousel-caption">
+        					<h3 class="text-uppercase">Простая установка</h3>
+        					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        				</div>
+        			</div>
+        		</div>
+
+        		<!--Элементы управления-->
+        		<a class="left carousel-control" href="#dws-slider" role="button" data-slide="prev">
+        			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        			<span class="sr-only">Previous</span>
+        		</a>
+        		<a class="right carousel-control" href="#dws-slider" role="button" data-slide="next">
+        			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        			<span class="sr-only">Next</span>
+        		</a>
+
+        		<a class="left carousel-control" href="#dws-slider" role="button" data-slide="prev">
+        			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        			<span class="sr-only">Previous</span>
+        		</a>
+        		<a class="right carousel-control" href="#dws-slider" role="button" data-slide="next">
+        			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        			<span class="sr-only">Next</span>
+        		</a>
+        	</div>
+        </wrapper>
+        <script>
+        	$('.carousel').carousel({
+        		interval: 2000
+        	})
+        </script>
+      </section><!-- Слайдер -->
+    </section>
+                  <!--  <img src="img/logo1.jpg" alt="Первый слайд"> -->
+                  <!---
+    <section>
+      <img class="logoIMG" src="img/logo1.jpg" alt="Logo1">
+      <div class="logo_txt11">
+        Больше чем 20 лет <br> <b>опыта</b>
+      </div>
+      <div class="logo_txt12">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </div>
+      <button class="btn_then_1" type="button" name="button">
+         <a class="btn__then_50" href="#">ПОДРОБНЕЕ</a>
+      </button>
+    </section>
+                    -->
+
+    <section>
+      <h1 class="H1_block">ПОПУЛЯРНЫЕ СВОЙСТВА</h1>
+      <div class="architect_img">
+
+        <div class="block_1_img">
+          <img class="img_opac img2000" src="img/1.jpg" alt="архитектор">
+          <p class="p_img">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="block_1_img">
+          <img class="img_opac img2000" src="img/2.jpg" alt="архитектор">
+          <p class="p_img">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+      </div><br>
+
+      <div class="architect_img">
+
+        <div class="block_1_img">
+          <img class="img_opac img2000" src="img/3.jpg" alt="архитектор">
+          <p class="p_img">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="block_1_img">
+          <img class="img_opac img2000" src="img/4.jpg" alt="архитектор">
+          <p class="p_img">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+      </div>
+
+      <button class="else_more " type="button" name="button">
+        <a class="btn__then_50" href="#">ЕЩЕ БОЛЬШЕ</a>
+      </button>
+
+    </section><br><br>
+
+
+    <!-- Grid --->
+    <section class="grid_container1">
+        <div>
+          <h2>Квалифицированный Сотрудник</h2>
+          <p>
+            Наша команда состоит из более чем 20 квалифицированных и опытных брокеров недвижимости и управляющих недвижимостью, готовых помочь вам.
+          </p>
+        </div>
+        <div>
+          <h2>Бесплатная консультация</h2>
+          <p>
+            Наше знакомство с клиентом всегда начинается с бесплатной консультации, чтобы узнать, какую недвижимость он ищет.
+          </p>
+        </div>
+        <div>
+          <h2>100% гарантия</h2>
+          <p>
+            Все результаты, которые вы получите от наших риэлторов, на 100% гарантированно предложат вам лучший выбор недвижимости по всей территории США.
+          </p>
+        </div>
+
+    </section>
+
+    <section>
+      <div class="block_3">
+        <h1 class="H1_block">КАТЕГОРИИ ЖИЛОЙ НЕДВИЖИМОСТИ</h1>
+        <p class="p_block_3">
+          В нашем агентстве мы работаем с различными видами жилой недвижимости. Вы можете узнать больше о нашей недвижимости, посетив наш веб-сайт.
+        </p>
+      </div>
+
+      <section class="grid_container2">
+          <div>
+            <img class="img_opac imgBig" src="img/нед1.jpg" alt=""><br>
+            <p class="p_img">Односемейные Дома</p>
+          </div>
+          <div>
+            <img class="img_opac imgBig" src="img/нед2.jpg" alt=""><br>
+            <p class="p_img">Таунхаусы</p>
+          </div>
+          <div>
+            <img class="img_opac imgBig" src="img/нед3.jpg" alt=""><br>
+            <p class="p_img">Многоквартирные Дома</p>
+          </div>
+          <div>
+            <img class="img_opac imgBig" src="img/нед4.jpg" alt=""><br>
+            <p class="p_img">Кондоминиумы</p>
+          </div>
+      </section>
+    </section>
+
+    <section>
+      <h1 class="H1_block">Наша команда</h1>
+
+      <section class="grid_container3">
+          <div class="s">
+            <img class="imgBig" src="img/11.jpg" alt="">
+
+            <div class="grid_container3_name_tell">
+              <h3>Nathalie Porter / Натали Портер</h3>
+              <p>Основатель, посредник</p>
+              <p>1-800-1324-567</p>
+              <p>
+                Г-жа Портер основала нашу компанию в 1989 году с целью помочь гостям и жителям США легко найти и купить или арендовать недвижимость во всех 50 штатах
+              </p>
+            </div>
+          </div>
+
+
+          <div class="s">
+            <img class="imgBig" src="img/12.jpg" alt="">
+
+            <div class="grid_container3_name_tell">
+              <h3>John Thompson / Джон Томпсон</h3>
+              <p>Сотрудник Отдела Продаж</p>
+              <p>1-800-1324-567</p>
+              <p>
+                Джон занимается продажами и маркетингом уже более 15 лет. Он обладает отличными знаниями о местном рынке, как жилом, так и коммерческом.
+              </p>
+            </div>
+          </div>
+
+
+          <div class="s">
+            <img class="imgBig" src="img/13.jpg" alt="">
+
+            <div class="grid_container3_name_tell">
+              <h3>Brian Payne / Брайан Пейн</h3>
+              <p>Риелтор</p>
+              <p>1-800-1324-567</p>
+              <p>
+                Брайан является не только лицензированным риэлтором, но также владеет титульными производителями и ипотечными лицензиями, что делает его очень знающим экспертом по недвижимости
+              </p>
+            </div>
+          </div>
+
+
+          <div class="s">
+            <img class="imgBig" src="img/14.jpg" alt="">
+
+            <div class="grid_container3_name_tell">
+              <h3>Marie Fernandez / Мари Фернандес</h3>
+              <p>Посредник</p>
+              <p>1-800-1324-567</p>
+              <p>
+                Цель Marie-предоставить клиентам самый высокий уровень маркетинговых знаний и обслуживания клиентов, чтобы помочь им достичь своих самых высоких целей в области недвижимости.
+              </p>
+            </div>
+          </div>
+
+      </section>
+    </section>
+
+    <section>
+      <img class="logoIMG" src="img/logo3.jpg" alt="Logo3">
+      <div class="logo_txt21">
+        Наилучшее Предложение <br> сентября
+      </div>
+      <div class="logo_txt22">
+        Благодаря разнообразию бухгалтеров, доступных в нашей компании, вы всегда можете выбрать тот, который соответствует вашим корпоративным требованиям.
+      </div>
+      <button class="btn_then_2" type="button" name="button">
+        <a class="btn__then_50" href="#">ПОДРОБНЕЕ</a>
+      </button>
+    </section><br>
+
+
+
+    <section>
+      <h1 class="H1_block">Рекомендация</h1>
+
+      <section class="grid_container4">
+
+        <div>
+          <div class="s">
+            <img class="img_rad" src="img/31.jpg" alt="">
+            <div class="grid_container3_name_tell">
+              <h3>Bill Warner / Билл Уорнер</h3>
+              <p>Постоянный клиент</p>
+            </div>
+          </div><br>
+          <p>
+            Я только что продал недвижимость с inHouse,и я не могу отблагодарить их достаточно. Их команда обладает отличными коммуникативными навыками, и они регулярно общались со мной на протяжении всего процесса.
+          </p>
+          <button class="btn__then_5" type="button" name="button">Подробнее</button>
+          </div>
+
+
+          <div>
+            <div class="s">
+            <img class="img_rad" src="img/32.jpg" alt="">
+
+            <div class="grid_container3_name_tell">
+              <h3>JKelly McMillan / Келли Макмиллан</h3>
+              <p>Постоянный клиент</p>
+            </div>
+          </div>
+          <p>
+            Я недавно продал свою арендуемую недвижимость в Нельсоне через инхаус. Все, что касается продажи, было сделано безупречно вашей командой. Вы дали мне отличный совет о том, что было необходимо для ускорения продажи.
+          </p>
+          <button class="btn__then_5" type="button" name="button">Подробнее</button>
+        </div>
+
+          <div>
+            <div class="s">
+            <img class="img_rad" src="img/33.jpg" alt="">
+
+            <div class="grid_container3_name_tell">
+              <h3>Peter Clarkson / Питер Кларксон</h3>
+              <p>Постоянный клиент</p>
+            </div>
+          </div>
+          <p>
+            Я должен сказать, что у inHouse есть лучшие брокеры, с которыми мы когда-либо работали. Их профессионализм, индивидуальность, внимание к деталям, отзывчивость и умение закрыть сделку являются выдающимися!
+          </p>
+          <button class="btn__then_5" type="button" name="button">Подробнее</button>
+          </div>
+      </section>
+    </section><br><br>
+
+    <footer>
+      <div class="container_foot">
+        <div class="block">
+            <b>О НАС</b><br><br>
+            inHouse - крупнейшая компания по управлению недвижимостью и недвижимостью с полным спектром услуг. Мы предлагаем опыт в области маркетинга и продажи широкого спектра объектов недвижимости, включая жилую недвижимость, фермы и жилые кварталы, <br> а также коммерческую и промышленную недвижимость, которая, как мы надеемся, может заинтересовать вас.
+        </div>
+        <div class="block">
+          <b>ПОСЛЕДНИЕ ЗАПИСИ В БЛОГЕ</b><br>
+          <p>Руководство по недвижимости: 7 важных советов для покупки дома</p><br>
+          <p>Односемейные дома как вариант жилья для молодых семей</p>
+        </div>
+        <div class="block_foot">
+          <b>ГАЛЕРЕЯ</b><br><br>
+
+          <div id="content">
+            <div id="mG3" class="microGallery">
+                <img class="galleryIMG" src="img/gallery/gallery-original-1.jpg" alt="Архитектура"/>
+                <img class="galleryIMG" src="img/gallery/gallery-original-2.jpg" alt="Архитектура"/>
+                <img class="galleryIMG" src="img/gallery/gallery-original-3.jpg" alt="Архитектура"/>
+                <img class="galleryIMG" src="img/gallery/gallery-original-4.jpg" alt="Архитектура"/>
+                <img class="galleryIMG" src="img/gallery/gallery-original-5.jpg" alt="Архитектура"/>
+                <img class="galleryIMG" src="img/gallery/gallery-original-6.jpg" alt="Архитектура"/>
+                <img class="galleryIMG" src="img/gallery/gallery-original-7.jpg" alt="Архитектура"/>
+                <img class="galleryIMG" src="img/gallery/gallery-original-8.jpg" alt="Архитектура"/>
+
+            </div>
+          </div>
+          <!-- The JavaScript -->
+          <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+          <script type="text/javascript" src="js/jquery.microgallery.js"></script>
+          <script type="text/javascript">
+              $(function() {
+                $("#mG3").microgallery({
+                    menu		:true,
+                    size		:'large',
+                    mode		:'single',
+                    cycle       :true,
+                    autoplay    :true,
+                    autoplayTime:2000
+                });
+              });
+          </script>
+        </div>
+      </div>
+
+      <!-- Grid --><!--
+      <section class="grid_container_footer">
+
+          <div>
+            <b>О НАС</b><br><br>
+            inHouse - крупнейшая компания по управлению недвижимостью и недвижимостью с полным спектром услуг. Мы предлагаем опыт в области маркетинга и продажи широкого спектра объектов недвижимости, включая жилую недвижимость, фермы и жилые кварталы, <br> а также коммерческую и промышленную недвижимость, которая, как мы надеемся, может заинтересовать вас.
+          </div>
+
+          <div>
+            <b>ПОСЛЕДНИЕ ЗАПИСИ В БЛОГЕ</b><br>
+            <p>Руководство по недвижимости: 7 важных советов для покупки дома</p><br>
+            <p>Односемейные дома как вариант жилья для молодых семей</p>
+          </div>
+
+          <div>
+            <b>ГАЛЕРЕЯ</b><br><br>
+            <div>
+              <div>
+                <img class="galleryIMG" src="img/gallery/gallery-original-1.jpg" alt="gallery">
+                <img class="galleryIMG" src="img/gallery/gallery-original-2.jpg" alt="gallery">
+                <img class="galleryIMG" src="img/gallery/gallery-original-3.jpg" alt="gallery">
+                <img class="galleryIMG" src="img/gallery/gallery-original-4.jpg" alt="gallery">
+              </div>
+              <div>
+                <img class="galleryIMG" src="img/gallery/gallery-original-5.jpg" alt="gallery">
+                <img class="galleryIMG" src="img/gallery/gallery-original-6.jpg" alt="gallery">
+                <img class="galleryIMG" src="img/gallery/gallery-original-7.jpg" alt="gallery">
+                <img class="galleryIMG" src="img/gallery/gallery-original-8.jpg" alt="gallery">
+              </div>
+            </div>
+          </div>
+
+      </section>  -->
+
+
+      <div class="header_footer">
+        <a class="BTN_head" href="#">ГЛАВНАЯ</a>
+        <a class="BTN_head" href="#">О НАС</a>
+        <a class="BTN_head" href="#">ТИПОГРАФИКА</a>
+        <a class="BTN_head" href="#">КОНТАКТЫ</a>
+      </div>
+
+      <div class="_hr">
+        <hr><br>
+        <p class="p_foot">© 2019. All Rights Reserved.</p>
+        <p class="p_foot">Сайт сделал - Цуканов Вячеслав</p> <br>
+      </div>
+    </footer>
+
+
+    <script src='js/code.js'></script>
+  </body>
+</html>
