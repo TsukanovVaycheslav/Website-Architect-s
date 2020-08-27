@@ -296,7 +296,7 @@ header {
 }
 
 /* &&&&&&&&&&&&& */
-/* Grid
+
 .grid_container_footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -307,7 +307,7 @@ header {
   background: #000;
   color: #FFF;
 }
-*/
+
   /* &&&&&&&&&&&&& */
 
   .container_foot{
@@ -340,7 +340,7 @@ header {
   color: #fff;
 }
 .galleryIMG {
-  width: 200px;
+  width: 80px;
 }
 
 footer {
@@ -566,7 +566,7 @@ footer {
     color: #fff;
   }
   .galleryIMG {
-    width: 200px;
+    width: 50px;
   }
 
   .p_foot {
@@ -971,15 +971,6 @@ footer {
           margin-left: 100px;
         }
 
-      .galleryIMG {
-        width: 200px;
-      }
-
-    /* Закоментированные
-      .galleryIMG {
-        width: 130px;
-      }
-    */
       .btn__then_5 {
         width: 170px;
         height: 70px;
